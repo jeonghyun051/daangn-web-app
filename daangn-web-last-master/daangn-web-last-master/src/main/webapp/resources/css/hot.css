@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+.abs{
+background-color:red;
+}
+
+#hot-articles-navigation {
+    width: 980px;
+    margin: 0 auto;
+    text-align: right;
+    margin-bottom: 30px;
+   
+}
+
+.hot-articles-nav-select {
+    width: 180px;
+    margin-left: 8px;
+    -moz-appearance: none;
+     font-size:15px;
+    /* appearance: none; */
+    padding: 12px 16px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border: solid 1px #e9ecef;
+    box-sizing: border-box;
+    letter-spacing: -0.6px;
+   
+}
+
+/*  go -download */
+#hot-articles-go-download {
+    margin-top: -200px;
+    width: 100%;
+    text-align: center;
+    background-color: #f8f9fa;
+    padding: 80px 0;
+}
+#hot-articles-go-download h3 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.6;
+    letter-spacing: -0.6px;
+}
+#hot-articles-go-download p {
+    font-size: 17px;
+    line-height: 1.6;
+    letter-spacing: -0.6px;
+    color: #495057;
+    margin-top: 8px;
+}
+
+#hot-articles-go-download #hot-articles-download-buttons {
+    margin-top: 16px;
+}
+#hot-articles-go-download #hot-articles-download-buttons .download-button {
+    display: inline-block;
+    width: 120px;
+    padding: 13px 21px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    background-color: #ff8a3d;
+    text-decoration: none;
+    margin: 0 8px;
+}
+articles-download-buttons .download-button .home-apple-store-bar-white {
+    vertical-align: middle;
+}
+#hot-articles-go-download #hot-articles-download-buttons .download-button .download-text {
+    display: inline-block;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: -0.6px;
+    vertical-align: middle;
+}
+#hot-articles-go-download #hot-articles-download-buttons .download-button {
+    display: inline-block;
+    width: 120px;
+    padding: 13px 21px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    background-color: #ff8a3d;
+    text-decoration: none;
+    margin: 0 8px;
+}
+#hot-articles-go-download #hot-articles-download-buttons .download-button .download-text {
+    display: inline-block;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: -0.6px;
+    vertical-align: middle;
+}
+/*  go -download end */

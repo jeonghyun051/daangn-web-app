@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.cos.daangnapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/splash_symbol"
+        android:label="당근마켓"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Daangnapp"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".main.chat.ChatActivity"/>
+        <activity android:name=".sale.SalesActivity" />
+        <activity android:name=".main.profile.UserProfileActivity" />
+        <activity android:name=".main.home.detail.UpdateActivity" />
+        <activity android:name=".profileedit.ProfileEdit" />
+        <activity android:name=".main.profile.SettingActivity" />
+        <activity android:name=".main.home.detail.DetailActivity" />
+        <activity android:name=".writing.WritingActivity" />
+        <activity android:name=".login.AuthActivity" />
+        <activity android:name=".login.NicknameActivity" />
+        <activity android:name=".login.LoginActivity" />
+        <activity android:name=".location.LocationActivity" />
+        <activity android:name=".splash.StartActivity" />
+        <activity android:name=".main.MainActivity" />
+            <activity android:name=".splash.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
